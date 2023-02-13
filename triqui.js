@@ -29,11 +29,7 @@ opciones.forEach(element=>{
 })
 console.log(casilla);
 
-for(let i=0;i<3;i++){
-    if(casilla==casilla){
-        alert('ganador')
-    }
-}
+
    
 
     
