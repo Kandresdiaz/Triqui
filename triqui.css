@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+h1{
+    text-align: center;
+    background: black;
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background: rgb(204, 255, 0);
+}
+
+#container {
+display: grid;
+grid-template-columns: repeat(3,1fr);
+margin: 50px 200px 0px 150px;
+}
+
+.casilla{
+    border: 3px solid;
+    border-radius: 30%;
+    margin-top: 5px;
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    background: rgb(254, 189, 68);
+}
+.casilla:hover{
+    background: rgba(30, 181, 3, 0.941);
+}
+#opciones{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    text-align: center; 
+}
+
+#circulo:hover{
+   height: 40px;
+}
+#equiz:hover{
+    height: 40px;
+}
+
+#circulo, #equiz{
+    border: 5px solid;
+    height: 30px;
+    width: 70px;
+    margin: 10px;
+    border-radius: 50%;
+    background: rgb(244, 45, 45) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#vs{
+    background: white;
+    border: 2px solid;
+    height: 30px;
+    width: 70px;
+    margin: 10px;
+    font-size: 20px;
+}
